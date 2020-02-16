@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahaluxun.github.io</id>
     <title>Huangtao&apos;s blog</title>
-    <updated>2020-02-16T17:51:57.712Z</updated>
+    <updated>2020-02-16T18:25:18.681Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahaluxun.github.io"/>
     <link rel="self" href="https://ahaluxun.github.io/atom.xml"/>
@@ -30,8 +30,10 @@
 Git 下载地址：https://git-scm.com/downloads<br>
 Github 账号注册地址：http://github.com/<br>
 Token 创建地址：https://github.com/settings/tokens/new<br>
-评论系统创建地址：https://github.com/settings/applications/new<br>
-我的 Blog ：huangtao.info</p>
+评论系统创建地址：https://github.com/settings/applications/new</p>
+<p>为你的Gridea博客加上Valine评论系统：<br>
+https://kveln.cn/post/qE678A4ce/</p>
+<p>我的 Blog ：huangtao.info</p>
 ]]></content>
     </entry>
 </feed>
