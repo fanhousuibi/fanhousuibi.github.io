@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="referrer" content="never">
   <meta name="description" content="">
   <meta name="author" content="kveln">
   <meta name="keywords" content="">
-  <title>Huangtao&#39;s blog</title>
+  <title>传张图 | Huangtao&#39;s blog</title>
   <link href="https://ahaluxun.github.io/media/css/bootstrap.min.css" rel="stylesheet">
   <!-- <link href="https://ahaluxun.github.io/media/css/all.min.css" rel="stylesheet" type="text/css"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <link rel="alternate" type="application/rss+xml" title="Huangtao&#39;s blog » Feed" href="https://ahaluxun.github.io/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="传张图 | Huangtao&#39;s blog » Feed" href="https://ahaluxun.github.io/atom.xml">
   <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
   <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
@@ -71,48 +71,43 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1 class="tag-tl">Archives</h1>
+          	<span class="tags">
+          	 
+        </span>
+            <h1>传张图</h1>
+            <span class="meta">
+            	Posted on
+              2020-02-17，1 min read
+            </span>
           </div>
         </div>
       </div>
     </div>
   </header>
+
   <!-- Post Content -->
   <article>
     <div class="container">
       <div class="row">
-        
-      
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-archives">
-    <h2 class="year">2020</h2>
-    
-                
-        <a href="https://ahaluxun.github.io/post/chuan-zhang-tu/" class="post">
-          <h2 class="post-title Archives">
-            传张图
-          </h2>
-          <div class="time post-meta">2020-02-17</div>
-        </a>
-  
-                    
-                
-        <a href="https://ahaluxun.github.io/post/gridea-pei-zhi-shuo-ming/" class="post">
-          <h2 class="post-title Archives">
-            Gridea 配置说明
-          </h2>
-          <div class="time post-meta">2020-02-16</div>
-        </a>
-  
-                    
-        </div>
-        </div>
+          <p>看图模式</p>
+<figure data-type="image" tabindex="1"><img src="https://ahaluxun.github.io/post-images/1581874730747.png" alt="" loading="lazy"></figure>
+
+          
+          <p class="next-post">下一篇：
+            <a href="https://ahaluxun.github.io/post/gridea-pei-zhi-shuo-ming/">
+              <span class="post-title">
+                Gridea 配置说明
+              </span>
+            </a>
+          </p>
         
+        <div class="comment">
+          
+        </div>
       </div>
     </div>
   </article>
-
-
  <!-- Footer -->
   <footer>
     <div class="container">
@@ -181,3 +176,32 @@
   })(this));</script>
   </body>
 </html>
+
+<!--载入js，在</body>之前插入即可-->
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库-->
+    <script src="/media/scripts/Valine.min.js"></script>
+<div class="comment"></div>
+<script>
+    new Valine({
+        // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+        av: AV, 
+        el: '.comment',
+	      lang: 'zh-cn',//设置评论语言
+        emoticon_url: 'https://cloud.panjunwen.com/alu',
+  emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"],
+  app_id: '你的id',
+  app_key: '你的key',
+  placeholder: '评论留言'
+    });
+</script>
+
+<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '<PI4t7ABiMHTKqBBKhoGvNbjR-gzGzoHsz>',
+            appKey: '<qeDt7bC4lVgCgu5SI5ky58Yc>'
+        })
+    </script>
