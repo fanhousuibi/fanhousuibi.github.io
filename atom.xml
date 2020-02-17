@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahaluxun.github.io</id>
     <title>Huangtao&apos;s blog</title>
-    <updated>2020-02-16T18:25:18.681Z</updated>
+    <updated>2020-02-17T13:45:22.790Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahaluxun.github.io"/>
     <link rel="self" href="https://ahaluxun.github.io/atom.xml"/>
@@ -10,16 +10,6 @@
     <logo>https://ahaluxun.github.io/images/avatar.png</logo>
     <icon>https://ahaluxun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huangtao&apos;s blog</rights>
-    <entry>
-        <title type="html"><![CDATA[传张图]]></title>
-        <id>https://ahaluxun.github.io/post/chuan-zhang-tu/</id>
-        <link href="https://ahaluxun.github.io/post/chuan-zhang-tu/">
-        </link>
-        <updated>2020-02-16T17:38:09.000Z</updated>
-        <content type="html"><![CDATA[<p>看图模式</p>
-<figure data-type="image" tabindex="1"><img src="https://ahaluxun.github.io/post-images/1581874730747.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 配置说明]]></title>
         <id>https://ahaluxun.github.io/post/gridea-pei-zhi-shuo-ming/</id>
