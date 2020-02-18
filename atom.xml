@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ahaluxun.github.io</id>
     <title>Huangtao&apos;s blog</title>
-    <updated>2020-02-18T08:42:22.165Z</updated>
+    <updated>2020-02-18T10:44:15.245Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ahaluxun.github.io"/>
     <link rel="self" href="https://ahaluxun.github.io/atom.xml"/>
@@ -10,6 +10,70 @@
     <logo>https://ahaluxun.github.io/images/avatar.png</logo>
     <icon>https://ahaluxun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huangtao&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Google voice申请、使用全攻略]]></title>
+        <id>https://ahaluxun.github.io/post/google-voice-shen-qing-shi-yong-yi-wen-gao-ding/</id>
+        <link href="https://ahaluxun.github.io/post/google-voice-shen-qing-shi-yong-yi-wen-gao-ding/">
+        </link>
+        <updated>2020-02-18T08:44:08.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://ahaluxun.github.io/post-images/1582015486698.jpg" alt="" loading="lazy"></figure>
+<h1 id="google-voice申请-使用全攻略">Google voice申请、使用全攻略</h1>
+<h2 id="什么是google-voice">什么是Google Voice？</h2>
+<p>Google Voice是谷歌公司推出的虚拟电话业务，拥有Google Voice电话，你可以用来给美国和加拿大地区的人免费发短信和打电话，以及可以用来注册国内和国外的媒体账号，比如国内的微信（转号）微博，国外的Telegram、Twitter、Facebook等。</p>
+<p>如果你这方面的需求，推荐注册。</p>
+<h2 id="怎么注册google-voice">怎么注册Google Voice?</h2>
+<p>那么怎么注册呢？</p>
+<p>首先你需要满足以下三个条件：</p>
+<ul>
+<li>
+<p>1.有一个稳定的Google账号；</p>
+</li>
+<li>
+<p>2.注册时使用美国的原生IP（节点），并且没有被别人用此IP注册过。（之所以要用美国原生IP，是因为Google voice只面向美国和加拿大地区的用户。</p>
+</li>
+<li>
+<p>3.有一个可以收发短信的美国实体电话，并且这个电话不能注册过Google voice。</p>
+</li>
+</ul>
+<p>满足以上三个条件后，你就可以在以下网址进行Google voice号码的申请了：</p>
+<p>https://voice.google.com</p>
+<p>不过，对于在中国的朋友来说，要满足这三个条件并不容易，因此，我们一般从淘宝买一个Google Voice的账号。购买好之后，再根据商家的操作步骤，把这个号码转移到我们的Google账号里面。在淘宝搜索“Google voice”就能买到。</p>
+<h2 id="google-voice如何保号">Google Voice如何保号？</h2>
+<p>注册好Google voice之后，如果有六个月没使用，Google就会取消我们这个号码的使用权，因此我们需要使用一些方法来保证自己的voice号不被销号。一般来说，会有一些保号的电报群，群成员都拥有Google voice的号码，互相发短信就行。这是一种方法。</p>
+<p>第二种方法相比来说，更为简单，也更便捷，一劳永逸。</p>
+<p>其实现原理是用Google voice号码注册某个网址的会员，然后订阅它们的短信通知服务，这样网站就会定期给你发送短信，以达到保号的目的。这里推荐使用https://www.bloomingdales.com/这个网站，具体操作方法，详见YouTube视频：</p>
+<p>https://www.youtube.com/watch?v=Jo1ER-P73gQ</p>
+<h2 id="google-voice如何使用">Google voice如何使用？</h2>
+<p>Google Voice的使用方法在iOS、Android和Windows/Mac端有些不一样。</p>
+<p>在苹果设备上使用Google Voice，需要下载一个叫“环聊（hangouts）”的APP，然后登陆自己的Google账号，在App设置里面勾选“接到来电”和“消息”；（在苹果商店下载环聊，需要将App store切换到中国区以外）</p>
+<p>安卓设备上，有些麻烦。因为环聊是属于谷歌全家桶成员之一，因此我们需要手机里装有Google套件，也就是说，要在安卓设备上使用环聊，必须通过Google play进行下载使用，需要下载两个应用——“环聊”和“环聊拨号器”。同样，我们也需要在App里勾选“接到来电”和“消息”。</p>
+<p>目前，环聊并没有电脑端的软件，因此在电脑上使用环聊，需要用浏览器打开网页使用：https://hangouts.google.com/</p>
+<p>打开网页之后，我们需要点下图位置的三个点，进行设置。</p>
+<figure data-type="image" tabindex="2"><img src="https://ahaluxun.github.io/post-images/1582018064071.png" alt="" loading="lazy"></figure>
+<p>进入设置后，我们需要勾选如下图中的三个选项：“收到消息时发出提示音”、“接收来电时响铃”（建议勾选）以及“在环聊中接收短信和语音邮件”（必须勾选）。</p>
+<figure data-type="image" tabindex="3"><img src="https://ahaluxun.github.io/post-images/1582018371849.png" alt="" loading="lazy"></figure>
+<p>（注：由于本人未使用过手机端的Google voice应用，又此应用在中国大陆的安装和使用体验并不佳，故略去不谈）</p>
+<h2 id="如何在国内不翻墙的情况下接收google-voice的信息">如何在国内不翻墙的情况下，接收Google voice的信息</h2>
+<p>注意，环聊在中国大陆境内使用需要使用VPN，IP不限，能翻墙就能使用。</p>
+<p>如果担心在国内收不到消息，可以使谷歌邮件转发消息到国内的邮箱里。</p>
+<p>具体操作如下：</p>
+<p>打开gmail，https://mail.google.com，登陆邮箱。</p>
+<p>点击&quot;设置&quot;——&quot;转发和POP/IMAP&quot;——勾选“将收到的邮件副本转发给。。。（填自己的国内邮箱）”——点击“保存更改”。</p>
+<p>随后，登陆刚才填写的国内邮箱，收到一封来自Gmail小组的邮件，点击链接确认请求。</p>
+<p>再次打开Gmail邮箱，都会在顶部有一串文字提醒你——“您会将自己的电子邮件转发给 xxx@qq.com。此通知将在 7天后后停止显示。”就说明成功了。（“xxx@qq.com”为你填写的邮箱）</p>
+<p>这样每次收到来自环聊的信息，你的国内邮箱就会收到“收到来自xxx（电话号码）的新短信”的邮件，点开就可以查看了。</p>
+<h2 id="用中国大陆的电话怎么给google-voice发短信">用中国大陆的电话怎么给Google Voice发短信？</h2>
+<p>首先我们要了解美国电话号码的组成。</p>
+<p>从中国大陆拨打美国电话号码属于拨打国际长途（中国电话需要开通国际长途），所以必须使用国际长途电话号码格式：</p>
+<p>国际长途号码由4个部分组成——“00”+“美国国家区号1”+“所在城市区号（你拿到的Google voice号码括号中的数字就是城市区号）”+“个人电话号码”。比如，你从中国大陆发短信给我的Google voice号，你就需要输入“00-1-678-3104778”。（中国国家区号为86，由于中国大陆的电话号码没有城市区号，因此只需加“0086+你的电话”即可）</p>
+<p>Google voice拨打美国和加拿大的电话是免费的，可以拨打美加之外的电话，具体资费可在“https://voice.google.com/u/0/rates?hl=zh-CN”上查询，中国大陆的费率是1分钟0.02美刀（Google voice可以在淘宝上找商家充值）。</p>
+<p>用中国大陆手机号可以给Google voice发短信（具体费率详情请咨询你的电信服务提供商），但目前Google voice并不支持给美国和加拿大之外的号码发送短信（美加号码之间发送短信是免费的）。</p>
+<p>以上就是我前几天申请Google voice过程中遇到的问题，欢迎给我留言。</p>
+<p>如需及时回复，请发邮件到“hihuangtao@qq.com&quot;</p>
+<p>如果我的文章在你申请成功Google voice的过程中有起到微小的帮助，请给我的Google voice号“6783104778”上发一个“1024”，让我知道，谢谢。</p>
+<figure data-type="image" tabindex="4"><img src="https://ahaluxun.github.io/post-images/1582022440752.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 配置说明]]></title>
         <id>https://ahaluxun.github.io/post/gridea-pei-zhi-shuo-ming/</id>
