@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ahaluxun.github.io</id>
-    <title>Huangtao&apos;s blog</title>
-    <updated>2020-02-18T10:45:13.524Z</updated>
+    <id>https://fanhousuibi.github.io</id>
+    <title>饭后随笔</title>
+    <updated>2020-03-02T15:53:39.795Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://ahaluxun.github.io"/>
-    <link rel="self" href="https://ahaluxun.github.io/atom.xml"/>
-    <subtitle>人民不需自由，这是最好的时代。</subtitle>
-    <logo>https://ahaluxun.github.io/images/avatar.png</logo>
-    <icon>https://ahaluxun.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Huangtao&apos;s blog</rights>
+    <link rel="alternate" href="https://fanhousuibi.github.io"/>
+    <link rel="self" href="https://fanhousuibi.github.io/atom.xml"/>
+    <logo>https://fanhousuibi.github.io/images/avatar.png</logo>
+    <icon>https://fanhousuibi.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, 饭后随笔</rights>
     <entry>
         <title type="html"><![CDATA[Google voice申请、使用全攻略]]></title>
-        <id>https://ahaluxun.github.io/post/google-voice-shen-qing-shi-yong-yi-wen-gao-ding/</id>
-        <link href="https://ahaluxun.github.io/post/google-voice-shen-qing-shi-yong-yi-wen-gao-ding/">
+        <id>https://fanhousuibi.github.io/post/google-voice-shen-qing-shi-yong-yi-wen-gao-ding/</id>
+        <link href="https://fanhousuibi.github.io/post/google-voice-shen-qing-shi-yong-yi-wen-gao-ding/">
         </link>
         <updated>2020-02-18T08:44:08.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://ahaluxun.github.io/post-images/1582015486698.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://fanhousuibi.github.io/post-images/1582015486698.jpg" alt="" loading="lazy"></figure>
 <h1 id="google-voice申请-使用全攻略">Google voice申请、使用全攻略</h1>
 <h2 id="什么是google-voice">什么是Google Voice？</h2>
 <p>Google Voice是谷歌公司推出的虚拟电话业务，拥有Google Voice电话，你可以用来给美国和加拿大地区的人免费发短信和打电话，以及可以用来注册国内和国外的媒体账号，比如国内的微信（转号）微博，国外的Telegram、Twitter、Facebook等。</p>
@@ -49,9 +48,9 @@
 <p>安卓设备上，有些麻烦。因为环聊是属于谷歌全家桶成员之一，因此我们需要手机里装有Google套件，也就是说，要在安卓设备上使用环聊，必须通过Google play进行下载使用，需要下载两个应用——“环聊”和“环聊拨号器”。同样，我们也需要在App里勾选“接到来电”和“消息”。</p>
 <p>目前，环聊并没有电脑端的软件，因此在电脑上使用环聊，需要用浏览器打开网页使用：https://hangouts.google.com/</p>
 <p>打开网页之后，我们需要点下图位置的三个点，进行设置。</p>
-<figure data-type="image" tabindex="2"><img src="https://ahaluxun.github.io/post-images/1582018064071.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://fanhousuibi.github.io/post-images/1582018064071.png" alt="" loading="lazy"></figure>
 <p>进入设置后，我们需要勾选如下图中的三个选项：“收到消息时发出提示音”、“接收来电时响铃”（建议勾选）以及“在环聊中接收短信和语音邮件”（必须勾选）。</p>
-<figure data-type="image" tabindex="3"><img src="https://ahaluxun.github.io/post-images/1582018371849.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://fanhousuibi.github.io/post-images/1582018371849.png" alt="" loading="lazy"></figure>
 <p>（注：由于本人未使用过手机端的Google voice应用，又此应用在中国大陆的安装和使用体验并不佳，故略去不谈）</p>
 <h2 id="如何在国内不翻墙的情况下接收google-voice的信息">如何在国内不翻墙的情况下，接收Google voice的信息</h2>
 <p>注意，环聊在中国大陆境内使用需要使用VPN，IP不限，能翻墙就能使用。</p>
@@ -71,13 +70,13 @@
 <p>以上就是我前几天申请Google voice过程中遇到的问题，欢迎给我留言。</p>
 <p>如需及时回复，请发邮件到“hihuangtao@qq.com&quot;</p>
 <p>如果我的文章在你申请成功Google voice的过程中有起到微小的帮助，请给我的Google voice号“6783104778”上发一个“1024”，让我知道，谢谢。</p>
-<figure data-type="image" tabindex="4"><img src="https://ahaluxun.github.io/post-images/1582022440752.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://fanhousuibi.github.io/post-images/1582022440752.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 配置说明]]></title>
-        <id>https://ahaluxun.github.io/post/gridea-pei-zhi-shuo-ming/</id>
-        <link href="https://ahaluxun.github.io/post/gridea-pei-zhi-shuo-ming/">
+        <id>https://fanhousuibi.github.io/post/gridea-pei-zhi-shuo-ming/</id>
+        <link href="https://fanhousuibi.github.io/post/gridea-pei-zhi-shuo-ming/">
         </link>
         <updated>2020-02-16T14:09:23.000Z</updated>
         <content type="html"><![CDATA[<p>Gridea 下载地址：https://gridea.dev<br>
