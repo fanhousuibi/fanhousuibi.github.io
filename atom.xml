@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fanhousuibi.github.io</id>
     <title>饭后随笔</title>
-    <updated>2020-03-07T19:24:46.438Z</updated>
+    <updated>2020-03-07T19:26:32.616Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fanhousuibi.github.io"/>
     <link rel="self" href="https://fanhousuibi.github.io/atom.xml"/>
@@ -11,8 +11,8 @@
     <rights>All rights reserved 2020, 饭后随笔</rights>
     <entry>
         <title type="html"><![CDATA[Telegram 入门操作指南]]></title>
-        <id>https://fanhousuibi.github.io/post/telegram-ru-men-cao-zuo-zhi-nan/</id>
-        <link href="https://fanhousuibi.github.io/post/telegram-ru-men-cao-zuo-zhi-nan/">
+        <id>https://fanhousuibi.github.io/post/how to use Telegram/</id>
+        <link href="https://fanhousuibi.github.io/post/how to use Telegram/">
         </link>
         <updated>2020-03-07T19:23:02.000Z</updated>
         <content type="html"><![CDATA[<h2 id="01基本介绍">01基本介绍</h2>
