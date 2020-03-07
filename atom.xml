@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fanhousuibi.github.io</id>
     <title>饭后随笔</title>
-    <updated>2020-03-07T19:26:32.616Z</updated>
+    <updated>2020-03-07T19:36:03.130Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fanhousuibi.github.io"/>
     <link rel="self" href="https://fanhousuibi.github.io/atom.xml"/>
@@ -159,12 +159,12 @@
 <h2 id="用中国大陆的电话怎么给google-voice发短信">用中国大陆的电话怎么给Google Voice发短信？</h2>
 <p>首先我们要了解美国电话号码的组成。</p>
 <p>从中国大陆拨打美国电话号码属于拨打国际长途（中国电话需要开通国际长途），所以必须使用国际长途电话号码格式：</p>
-<p>国际长途号码由4个部分组成——“00”+“美国国家区号1”+“所在城市区号（你拿到的Google voice号码括号中的数字就是城市区号）”+“个人电话号码”。比如，你从中国大陆发短信给我的Google voice号，你就需要输入“00-1-678-3104778”。（中国国家区号为86，由于中国大陆的电话号码没有城市区号，因此只需加“0086+你的电话”即可）</p>
+<p>国际长途号码由4个部分组成——“00”+“美国国家区号1”+“所在城市区号（你拿到的Google voice号码括号中的数字就是城市区号）”+“个人电话号码”。比如，你从中国大陆发短信给我的Google voice号，你就需要输入“00-1-913-7034567”。（中国国家区号为86，由于中国大陆的电话号码没有城市区号，因此只需加“0086+你的电话”即可）</p>
 <p>Google voice拨打美国和加拿大的电话是免费的，可以拨打美加之外的电话，具体资费可在“https://voice.google.com/u/0/rates?hl=zh-CN”上查询，中国大陆的费率是1分钟0.02美刀（Google voice可以在淘宝上找商家充值）。</p>
 <p>用中国大陆手机号可以给Google voice发短信（具体费率详情请咨询你的电信服务提供商），但目前Google voice并不支持给美国和加拿大之外的号码发送短信（美加号码之间发送短信是免费的）。</p>
 <p>以上就是我前几天申请Google voice过程中遇到的问题，欢迎给我留言。</p>
-<p>如需及时回复，请发邮件到“hihuangtao@qq.com&quot;</p>
-<p>如果我的文章在你申请成功Google voice的过程中有起到微小的帮助，请给我的Google voice号“6783104778”上发一个“1024”，让我知道，谢谢。</p>
+<p>如需回复，请发邮件到“fanhousuibi@outlook.com&quot;</p>
+<p>如果我的文章在你申请成功Google voice的过程中有起到微小的帮助，请给我的Google voice号“9137034567”上发一个“1024”，让我知道，谢谢。</p>
 <figure data-type="image" tabindex="4"><img src="https://fanhousuibi.github.io/post-images/1582022440752.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
