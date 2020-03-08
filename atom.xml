@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fanhousuibi.github.io</id>
     <title>饭后随笔</title>
-    <updated>2020-03-08T05:16:43.481Z</updated>
+    <updated>2020-03-08T05:19:06.650Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fanhousuibi.github.io"/>
     <link rel="self" href="https://fanhousuibi.github.io/atom.xml"/>
@@ -11,8 +11,8 @@
     <rights>All rights reserved 2020, 饭后随笔</rights>
     <entry>
         <title type="html"><![CDATA[Telegram 入门操作指南]]></title>
-        <id>https://fanhousuibi.github.io/post/how to use Telegram/</id>
-        <link href="https://fanhousuibi.github.io/post/how to use Telegram/">
+        <id>https://fanhousuibi.github.io/post/Telegram01/</id>
+        <link href="https://fanhousuibi.github.io/post/Telegram01/">
         </link>
         <updated>2020-03-07T19:23:02.000Z</updated>
         <content type="html"><![CDATA[<h2 id="01基本介绍">01基本介绍</h2>
@@ -106,8 +106,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Google voice申请、使用全攻略]]></title>
-        <id>https://fanhousuibi.github.io/post/google-voice-shen-qing-shi-yong-yi-wen-gao-ding/</id>
-        <link href="https://fanhousuibi.github.io/post/google-voice-shen-qing-shi-yong-yi-wen-gao-ding/">
+        <id>https://fanhousuibi.github.io/post/Googlevoice/</id>
+        <link href="https://fanhousuibi.github.io/post/Googlevoice/">
         </link>
         <updated>2020-02-18T08:44:08.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://fanhousuibi.github.io/post-images/1582015486698.jpg" alt="" loading="lazy"></figure>
@@ -170,8 +170,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 配置说明]]></title>
-        <id>https://fanhousuibi.github.io/post/gridea-pei-zhi-shuo-ming/</id>
-        <link href="https://fanhousuibi.github.io/post/gridea-pei-zhi-shuo-ming/">
+        <id>https://fanhousuibi.github.io/post/gridea/</id>
+        <link href="https://fanhousuibi.github.io/post/gridea/">
         </link>
         <updated>2020-02-16T14:09:23.000Z</updated>
         <content type="html"><![CDATA[<p>Gridea 下载地址：https://gridea.dev<br>
@@ -187,7 +187,7 @@ https://kveln.cn/post/BMDxD6cBT/</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[关于]]></title>
+        <title type="html"><![CDATA[关于本站]]></title>
         <id>https://fanhousuibi.github.io/post/about/</id>
         <link href="https://fanhousuibi.github.io/post/about/">
         </link>

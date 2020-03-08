@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Telegram 入门操作指南 | 饭后随笔</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://fanhousuibi.github.io/favicon.ico?v=1583644740476">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://fanhousuibi.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158647147-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158647147-1');
+</script>
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://fanhousuibi.github.io">
+        <img src="https://fanhousuibi.github.io/images/avatar.png?v=1583644740476" class="site-logo">
+        <h1 class="site-title">饭后随笔</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://t.me/fhsblog" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://twitter.com/fhsb2020" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <a class="social-link" href="https://fanhousuibi.blogspot.com/" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        
+      
+    </div>
+    <div class="site-description">
+      
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://fanhousuibi.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Telegram 入门操作指南</h2>
+            <div class="post-date">2020-03-08</div>
+            
+              <div class="feature-container" style="background-image: url('https://fanhousuibi.github.io/post-images/Telegram01.jpg')">
+              </div>
+            
+            <div class="post-content">
+              <h2 id="01基本介绍">01基本介绍</h2>
+<h3 id="1-电报是什么">① 电报是什么？</h3>
+<p>Telegram,中文圈称作“电报”，是俄国的两兄弟 <a href="https://en.wikipedia.org/wiki/Nikolai_Durov">Nikolai</a> and <a href="https://en.wikipedia.org/wiki/Pavel_Durov">Pavel Durov</a>于2013年推出的通信工具（他们是俄国社交软件VK的创始人）。关于这两兄弟“吊炸天”的故事，我们改天再讲。今天介绍一下Telegram（以下称“电报”）以及一些初阶的入门使用技巧。</p>
+<p>电报信息基于云端发送并提供语音聊天功能（a cloud-based instant messaging and voice over IP service)，你可以发送文字、语音(包括语音实时聊天）、图片、视频、贴图和任何类型的文件（单个文件最大1.5GB），但是目前并不提供实时视频聊天功能（听说借助某种技术可以实现，但本人未测试过）。截止到2018年3月，电报已经有超过2亿的月活用户。</p>
+<h3 id="3电报的使用载体">③电报的使用载体</h3>
+<p>电报的客户端代码是开源的（ <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source software</a> ），但是最新版本的源代码并不总是立即发布，并且它服务器端的代码不开源并自有版权（its server-side code is closed-source and proprietary），该服务还向独立开发人员提供API。</p>
+<p>目前电报官方客户端有 <a href="https://en.wikipedia.org/wiki/Android_(operating_system)">Android</a>, <a href="https://en.wikipedia.org/wiki/IOS">iOS</a>, <a href="https://en.wikipedia.org/wiki/Windows_Phone">Windows Phone</a>, <a href="https://en.wikipedia.org/wiki/Windows_NT">Windows NT</a>, <a href="https://en.wikipedia.org/wiki/MacOS">macOS</a> and <a href="https://en.wikipedia.org/wiki/Linux">Linux</a>，在安卓端有两款软件，分别为Telegram和Telegram X。电报有很多第三方客户端，比如Teleplus、Bettergram、Nicegram等（建议不要使用任何第三方客户端）。官方客户端网页下载地址有且只有一个，请认准：https://telegram.org/ 。（注：电报也可以在网页端使用）</p>
+<h3 id="4电报的加密聊天功能">④电报的加密聊天功能</h3>
+<p>当Telegram中的默认消息和媒体存储在其服务器上时，它们会被加密，但是拥有加密密钥的Telegram服务提供商可以对其进行访问。（Default messages and media in Telegram are encrypted when stored on its servers, but can be accessed by the Telegram service provider, who holds the <a href="https://en.wikipedia.org/wiki/Encryption_key">encryption keys</a>.）此外，电报还提供端到端加密聊天功能，这一功能必须要求两个人同时在线，同时互相开启secret chat功能。进入聊天界面会有如下提示：</p>
+<ul>
+<li>
+<p>本服务使用端到端加密（Use end-to-end encryption）；</p>
+</li>
+<li>
+<p>聊天内容不会被储存（Leave no trace on our servers）；</p>
+</li>
+<li>
+<p>支持阅后即焚（Have a self-destruct timer）；</p>
+</li>
+<li>
+<p>不允许转发聊天内容，（Do not allow forwarding）。</p>
+</li>
+</ul>
+<p>除此之外，不能截屏、录屏以及在电脑客户端上使用，聊天消息支持自定义设置销毁时间，目前并没有加密群聊和频道的功能。</p>
+<p>在电报，除了提供聊天、端对端加密聊天之外，还提供了群聊（分为私密群和公开群，支持高达2万人的群组）、频道广播（类似于公众号）、https://telegra.ph/ 发文、机器人、贴纸（表情）、更换外观主题等功能。群聊和频道广播功能任何人都可以创建和使用。</p>
+<h3 id="5电报靠什么盈利">⑤电报靠什么盈利？</h3>
+<p>电报使用完全免费，并且没有任何广告（<strong>Telegram</strong> is free forever. No ads. No subscription fees.）现阶段主要靠创始人Pavel Durov的资助。（We believe in fast and secure messaging that is also 100% free.<a href="https://telegram.org/press">Pavel Durov</a>, who shares our vision, supplied Telegram with a generous donation, so we have quite enough money for the time being. If Telegram runs out, we will introduce non-essential paid options to support the infrastructure and finance developer salaries. But making profits will never be an end-goal for Telegram.）</p>
+<h3 id="6其他问题">⑥其他问题</h3>
+<p>其他问题，请访问https://telegram.org/faq。这份问答写得详细简约，通俗易懂的同时，又不失乐趣。你在电报使用过程中遇到的绝大部分问题答案都在里面。笔者试着举几个例子。</p>
+<p>比如怎么进行私密群聊、怎么设置用户名、怎么加好友、怎么设置手机号对别人不可见等等操作性问题，以及一些电报逻辑架构的问题，比如，为什么电报会如此安全？加密聊天是怎么实现的？要拿到我们上传到电报云端的信息，需要哪些步骤？（这一问题非常经典，是这样叙述的：To protect the data that is not covered by end-to-end encryption, Telegram uses a distributed infrastructure. Cloud chat data is stored in multiple data centers around the globe that are controlled by different legal entities spread across different jurisdictions. The relevant decryption keys are split into parts and are never kept in the same place as the data they protect. As a result, several court orders from different jurisdictions are required to force us to give up any data.Thanks to this structure, we can ensure that no single government or block of like-minded countries can intrude on people's privacy and freedom of expression. Telegram can be forced to give up data only if an issue is grave and universal enough to pass the scrutiny of several different legal systems around the world.To this day, we have disclosed 0 bytes of user data to third parties, including governments.）</p>
+<p>问答严谨易懂的同时，用词也很幽默风趣。比如，讲到电报可以保护我的一切吗？是这样说的：But please remember that we cannot protect you from your own mother if she takes your unlocked phone without a passcode. 讲到私密聊天如何确定别人不会截屏时，文档中说到:After all, nobody can stop a person from taking a picture of their screen with a different device or an old school camera.</p>
+<p>所以，如果想要使用好电报，最好抽一两个小时好好阅读一些这份问答（用谷歌翻译成中文也是能大概了解到意思的）。</p>
+<p>关于电报的更多问题，访问：https://telegram.org/faq</p>
+<p>关于电报的相关新闻报道，访问：https://telegram.org/press</p>
+<h2 id="02-中文用户使用技巧">02 中文用户使用技巧</h2>
+<h3 id="1-注册电报">① 注册电报</h3>
+<p>目前，电报本身没有提供汉化的客户端和网页。因此，如果你不懂英文，需要对照着翻译进行注册。注册电报可以通过两种方式——网页和客户端（两种方式都需要翻墙）。</p>
+<p>在网页端注册，可访问：https://web.telegram.org/#/login， 需要提供自己的电话号码。中国的就选China，然后填写手机号码，接收验证码后进行填写。建议使用Google Voice号码进行注册，Google Voice获取和使用教程见：http://fanhousuibi.life/post/google-voice-shen-qing-shi-yong-yi-wen-gao-ding/。</p>
+<p>在客户端注册（访问：https://telegram.org/apps下载客户端），和网页端操作一样。</p>
+<h3 id="2-电报汉化">② 电报汉化</h3>
+<p>虽然电报官方没有提供客户端的汉化版本，但是中文圈早已有了汉化版。在电报客户端上搜索：https://t.me/YinxiangBiji_News/654 （或者在浏览器里打开网址，然后跳转到电报客户端）</p>
+<h3 id="3-电报内建代理">③ 电报内建代理</h3>
+<p>由于中国不可描述的原因，在大陆并不能访问电报。但是电报官方提供了一个很好的工具——代理设置。通过在电报客户端里面设置代理的方式，我们可以在不翻墙的情况下访问使用电报。</p>
+<p>电报内建代理很简单，在电报搜索栏搜索以下任何一个频道，然后点击链接即可（注意，最好多关注几个频道，连接最低5个代理备用，因为一个代理往往最多能顶两三天。）（连上代理后，可能会在你的聊天顶部出现一个窗口，不要惊慌，这是代理的广告，毕竟白嫖人家的，还不让人打点广告？）</p>
+<p>https://t.me/TelMTProto</p>
+<p>https://t.me/ProxyMTProto</p>
+<p>https://t.me/mfssr</p>
+<p>https://t.me/socks5list</p>
+<p>https://t.me/onessr</p>
+<p>@TgProxies</p>
+<p>@proxyme</p>
+<p>@MTProtoProxies</p>
+<p>@MTProxies</p>
+<p>@MTProtoTG</p>
+<p>@socks5_bot</p>
+<h3 id="4-频道和群组">④ 频道和群组</h3>
+<p>除了私密聊天，频道和群组也是电报的核心组成。基本上，电报中文圈大部分人还是混群组的多。中文圈群组五花八门，不仅可以加入高达2万人的人群聊实时聊天不受审查，而且还提供诸如听歌、天气查询等服务（多通过机器人实现）。大陆的中文群组可以在搜索框搜索“@zh_groups_bot”，然后和群组机器人对话。或者通过加入群聊“https://t.me/hao12324”，输入想加入的群组名称进行搜索。</p>
+<p>台湾群组索引：https://www.telegram.url.tw/</p>
+<p>这里推荐几个有意思的群组：</p>
+<p>https://t.me/haoyybots，输入歌手或歌曲名字，听歌！</p>
+<p>https://t.me/google_drive，各种资源！</p>
+<p>https://t.me/NowMoviesChannel，国外电影频道</p>
+<p>https://t.me/ezuribao，豆瓣鹅组日报</p>
+<p>https://t.me/nfnfmovies，电影频道</p>
+<p>https://t.me/pfff_bw，高质量、艺术性黄图</p>
+<p>https://t.me/readingclubus，最新杂志分享</p>
+<p>https://t.me/tgdaguguguji，大咕咕咕鸡</p>
+<p>https://t.me/WebNotesBackup，小道消息</p>
+<p>https://t.me/rthk_news，香港电台</p>
+<p>https://t.me/iingtw，台湾队长蔡英文</p>
+<h2 id="03-通讯工具里的瑞士军刀">03 通讯工具里的瑞士军刀</h2>
+<p>相对于微信来说，电报提供了很多自定义的功能，功能的实现通过机器人的形式。有了机器人，电报的功能被无限制地放大，你甚至可以用机器人来收发邮件、订阅新闻、管理群组、查询天气、进行交易支付、写文章、歌曲搜索等等。</p>
+<p>今天就主要介绍几个机器人：</p>
+<p>@GmailBot，这是一个认证的机器人，可以用他来收发谷歌邮件，只需要第一次授权即可。</p>
+<p>@telegraph，这是电报官方的机器人，通过他你可以管理你在telegra.ph发表的文章。在安卓的Telegram X客户端上，你可以直接用它来发文章。</p>
+<p>@CETranslationBot，英汉互译机器人，输入中文，它回复你相应的英文，输入英文，回复相应的中文，pin在聊天界面的顶端，和英语国家的人聊天，用起来特别方便。</p>
+<p>@EventsAggregatorBot，更新订阅机器人，它可以 Twitter, Reddit, YouTube or RSS上任意一个用户的内容，只需要按照提示操作，把这四个平台上的用户名称输入给它，每次这个平台的这名用户更新时，它就会发送更新的内容给你，让你不错过关注人的任何一条信息。</p>
+<p>@utubebot，YouTube下载机器人。复制YouTube视频的地址给这个机器人，按照提示操作就可以下载YouTube视频，包括1080p的视频。</p>
+<h2 id="04-one-more-thing">04 One more thing</h2>
+<p>以上介绍只是电报的冰山一角，电报的世界里还有很多有用、有趣、有料的东西等待你去探索。此文章也会随着笔者了解的深入，进行更新。</p>
+<p>不过，如果想及时收到我关于电报一些用法的探索，可以考虑加入我的频道：</p>
+<p>https://t.me/fhsblog</p>
+<p>我们频道里见！</p>
+<p>参考来源：</p>
+<p>https://en.wikipedia.org/wiki/Telegram_(software)</p>
+<p>https://telegram.org/faq</p>
+<p><a href="https://telegra.ph/Telegram%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-02-20">https://telegra.ph/Telegram%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7-02-20</a></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://fanhousuibi.github.io/tag/kX3960lsC/" class="tag">
+                    电报
+                  </a>
+                
+                  <a href="https://fanhousuibi.github.io/tag/Lq0QNTL-ZY/" class="tag">
+                    Telegram
+                  </a>
+                
+                  <a href="https://fanhousuibi.github.io/tag/zR6UvXypp0/" class="tag">
+                    通讯工具
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://fanhousuibi.github.io/post/Googlevoice/">
+                  <h3 class="post-title">
+                    Google voice申请、使用全攻略
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
