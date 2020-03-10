@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Markdown标记语法，从入门到熟练 | 饭后随笔</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://fanhousuibi.github.io/favicon.ico?v=1583854896620">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://fanhousuibi.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158647147-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158647147-1');
+</script>
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://fanhousuibi.github.io">
+        <img src="https://fanhousuibi.github.io/images/avatar.png?v=1583854896620" class="site-logo">
+        <h1 class="site-title">饭后随笔</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://t.me/fhsblog" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://twitter.com/fhsb2020" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <a class="social-link" href="https://fanhousuibi.blogspot.com/" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        
+      
+    </div>
+    <div class="site-description">
+      
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://fanhousuibi.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Markdown标记语法，从入门到熟练</h2>
+            <div class="post-date">2020-03-10</div>
+            
+              <div class="feature-container" style="background-image: url('https://fanhousuibi.github.io/post-images/markdown-introduction.jpg')">
+              </div>
+            
+            <div class="post-content">
+              <h3 id="audio-src人民不需要自由李志mp3"><audio src="人民不需要自由李志.mp3"/></h3>
+<p>[toc]</p>
+<h2 id="markdown生为专注和一致性体验">Markdown生为专注和一致性体验</h2>
+<blockquote>
+<p>We believe that writing is about content, about what you want to say - not about fancy formattin.</p>
+<p>我们坚信写作写的是内容，所思所想，而不是那些花哨格式。——<a href="https://ulysses.app/#top">Ulysses</a> for Mac</p>
+</blockquote>
+<p>Markdown标记语法，由约翰·格鲁伯（John Gruber)于2004年创立，2017年，GitHub 发布了基于CommonMark 的 Github Flavored Markdown（<a href="https://github.github.com/gfm/">GFM</a>）的正式规范。</p>
+<p>约翰·格鲁伯对于Markdown的定义是：<a href="https://daringfireball.net/projects/markdown/">Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).</a> (Markdown是面向Web作家的文本到HTML转换工具。Markdown允许您使用易于阅读，易于编写的纯文本格式进行编写，然后将其转换为结构上有效的XHTML（或HTML）。)</p>
+<p>对于经常需要专注写东西的人来说，markdown标记语法是一个必备的工具。它能够让你双手不离开键盘的情况下（只是使用键盘，而不用鼠标或触屏），实现给文本<strong>加粗</strong>，区别各级标题，引用格式，插入图片、链接、表格、甘特图、数学公式等等功能。markdown盛行于程序员圈子，是编码的好伙伴。其实markdown本身也是一种编码形式，markdown语法在机器和人之间搭建了一个桥梁，让人用机器读得懂的语言和机器进行对话，而不是相反，因此也省略了大量中间环节，变得<strong>轻量化</strong>。</p>
+<p>轻量化和标准化带来的好处不只是书写过程<em>行云流水</em>般的敲字体验和<strong>黑客范式</strong>，还在于由于它的编码化形式，因此它的格式是一致的。什么意思呢？我们都有这种体验，一份Word文档，在自己电脑上看还好好的，但是发给同事就乱码了，这多半是由于两个软件平台编码格式不一致导致的，而markdown不存在这样的问题，使用正式规范的编码对文本进行的格式化，在任何支持markdown的平台，都能正常显示（由于平台显示形态可能不一样，比如标题的颜色、引用线粗细等会不太一样，因此要忠实重现文本，最好用PDF版本进行文件的传阅）。</p>
+<p>和markdown相对的，便是富文本格式，像微软的Word，搭载的就是富文本格式。你可以把markdown理解成一个指路的路标，行人就像机器，看到这个路标，就知道应该往哪儿走，能够识别markdown语法的载体，当我们用markdown进行写作时，它会自动识别并执行相对应**“使文本格式化”**的操作。</p>
+<h2 id="机器编译和自然语言之间的理解鸿沟">机器编译和自然语言之间的理解鸿沟</h2>
+<p>对于富文本格式来说，由于软件担当了第三者，因而机器本身的表达形式和使用者对其的理解，都不可避免的存在差异。似乎看起来，富文本格式可见即可得的形式使得人们使用Word手到擒来。可是，君不见多少人在无数个深夜面对<em>怎么弄成这样</em>的文档格式而掉发无数。而markdown不一样，它使用机器的语言和机器进行交流，就像来到中国用中文一样，不再因为蹩脚的外语而造成理解的混乱，也无需再费力去学习外语。</p>
+<p>Markdown就像一个可回溯的路标，走错了路可以跟着路标再走回来。而像Word这样的富文本，越往前走，身后的路标离你越远，直至最后消失不见。这对于一个越是往前走，越需要向后回顾的人，无疑是一种<strong>不留后路的背叛</strong>。</p>
+<p>说到这里，我们知道了markdown标记语言和富文本之间的本质不同。那么，现在问题来了，markdown既然是机器语言，那么非程序员的学习成本高吗？</p>
+<h2 id="markdown的学习成本">Markdown的学习成本</h2>
+<p>Markdown虽然是多为程序员使用，但是学习成本并不高，相反使用成本（习惯成本）很高。这个问题理解起来有两个维度，长期和短期。</p>
+<p>就短期来看，markdown的使用成本非常高，也许你在富文本格式软件中的效率会是markdown的好几倍。同时，由于markdown遵循严格的语法规范，所以对于字符的缺漏、错位以及需要英文状态下输入，这些问题和富文本形式下的<strong>用顺了手</strong>、<strong>可见即可得</strong>产生感受上强烈的差别，使得markdown被完全打趴在地。因此，强烈不建议短期使用markdown标记语言。</p>
+<p>长期来看，markdown无疑是<strong>一劳永逸</strong>的绝佳注解。因为就目前来说，对于纯文本格式的编辑，标记语言无非就三种类型，五分钟就能学会，后续只是需要<em>混个手熟</em>罢了。而对于长期主义者来说，五分钟学好的事，花五个月用熟练，然后一辈子受用，是个再自然不过的事情。以下为最为常用语法：</p>
+<p>[Basic writing and formatting syntax][]</p>
+<p><a href="https://www.webfx.com/tools/emoji-cheat-sheet/">EMOJI CHEAT SHEET</a></p>
+<p>[Markdown Reference from Typora][1]</p>
+<pre><code>第一类，文字标记（空格表示文字）：* *标示斜体，** **标示粗体,~~ ~~标示删除线,&lt;fanhousuibi@outlook.com&gt;标示超链接（点击即打开邮箱）；
+
+第二类，段落标记（空格表示文字）：# 标示一级标题、## 标示二级标题、如此增加到六级标题，&gt; 标示段落引用，- 标示无序列表，1. 2. 3. ...标示有序列表，***/---/+++ 标示分割线,~~~ 标示区块，` `标示代码块;
+
+第三类，插入文本的其他标记：[输入网站名称](输入网址)标示超链接，![图片名称](图片位置：图片网址\本地图片相对位置)插入图片(![Alt text](/path/to/img.jpg)/![Alt text](/path/to/img.jpg &quot;Optional title&quot;),
+| | |
+|---|---|---|插入表格，-[ ]&amp;-[x]任务清单,:emojiname:插入表情 :zzz: insert sleep emoji，
+| | |
+
+输入[toc]生成文章目录
+
+网址自动变成一个超链接。
+
+footnote[^here is the text of the footnote]
+[^footnoe]:here is the text of the footnote.
+
+[an example][id]参考链接（第二个中括号内容可以省略，第一个中括号这时会被当做id使用）
+
+` `标示代码块
+
+&lt;u&gt; &lt;/u&gt;标示下划线
+
+下标
+用一个~，如果要写水分子，则是H~2~O（在typora上要在文件》偏好设置》markdown》markdown扩展语法里进行设置
+
+上标
+用^前后分隔，比如X的平方可以表示为X^2^
+
+Hold down Cmd(on Windows:Ctrl) and click on [this link](#block-element) to jump to header `Block Elements`.
+
+&lt;video src=&quot; &quot;&gt;插入视频
+
+&lt;audio src=&quot;xxx.mp3&quot; /&gt;插入音频
+</code></pre>
+<p><a href="https://www.jianshu.com/p/a289a8c4c606">输入[toc]生成文章目录</a>(TOC:Table of Contents)</p>
+<p>Hold down Ctrl and click on <a href="#%E6%9C%BA%E5%99%A8%E7%BC%96%E8%AF%91%E5%92%8C%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E4%B9%8B%E9%97%B4%E7%9A%84%E7%90%86%E8%A7%A3%E9%B8%BF%E6%B2%9F">this link</a> to jump to header to 机器编译和自然语言之间的理解鸿沟</p>
+<p>You can create footnotes like this<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<h3 id="总结一下markdown的优点">总结一下，Markdown的优点<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></h3>
+<ul>
+<li>专注你的文字内容而不是排版样式</li>
+<li>轻松的导出HTML、PDF和本身的.md文件</li>
+<li>纯文本内容，兼容所有的文本编辑器与文字处理软件</li>
+<li>随时修改你的文章版本，不必像文字处理软件生成若干文件版本导致混乱</li>
+<li>可读、直观、学习成本低</li>
+</ul>
+<h2 id="markdown语法能在哪使用">Markdown语法能在哪使用？</h2>
+<p>原则上，所有网站上都可以用。但确实也有专门针对markdown进行排版使用的载体。</p>
+<p>我们大家比较熟悉的：</p>
+<blockquote>
+<ul>
+<li>锤子便签</li>
+<li>简书</li>
+<li>印象笔记通过新建markdown笔记</li>
+<li>GitHub</li>
+<li>马克飞象</li>
+</ul>
+</blockquote>
+<p>很多人用微信公众号发文，其实也是可以用markdown格式的，把写好的文本（包括markdown标记）复制到微信公众号，然后在浏览器安装一个叫“markdown here”（Markdown Here 是一个浏览器/客户端插件，它支持GFM语法，可以一键渲染富文本编辑器中的Markdown语法，这让我们可以使用任意Web编辑器来写邮件。<a href="https://markdwonhere.com/get.html">点我下载</a>）</p>
+<p>Markdown不仅可以用来渲染微信公众号的文本，还可以用来渲染邮件、自建网站内容、今日头条等。</p>
+<p>另外，<a href="https://tgraph.io/markdown-07-07">Telegram</a>聊天窗口也支持Markdown。</p>
+<h2 id="有专门编写markdown的软件吗">有专门编写markdown的软件吗？</h2>
+<p><strong>有！</strong></p>
+<p>GitHub出品的atom，专注与苹果设备的<a href="https://ulysses.app/#top">Ulysses</a> ，以及在安卓端运行得不错的typora和中文版优化得不错的在线离线都可以编写的Cmd Markdown编辑阅读器都是不错的选择。关键是自己选定了合适的，用顺手就行。</p>
+<p>我本人使用的是Typora，Typora和我们前面介绍的markdown形式不一样，它和word一样，也是可见即可得。也就是你打上markdown标记符号后，它就马上显示出效果来，而隐藏标记语言，只有你点击这个部分，标记语言才会显示出来。但如果你发布出去，别人在前端阅读是看不到标记语法的。同时，即便你不习惯使用标记语法，但是你喜欢用快捷键的话，也会得到和markdown语法一样的效果。</p>
+<p>推荐使用Typora！</p>
+<h2 id="markdown不能做什么">Markdown不能做什么</h2>
+<p>轻量文本在保证书写顺畅和格式一致性的情况下，对于需要插入进行复杂编辑、排版的文本并不适用。但是日常写写文章、编编代码还是足够用的。</p>
+<p>同时，markdown也不能设置字体、字号、字的颜色。</p>
+<figure data-type="image" tabindex="1"><img src="girl.jpg" alt="girl" loading="lazy"></figure>
+<p><video src="https://www.iqiyi.com/w_19rrroqai5.html?list=19rro9y9zm
+"></p>
+<p>☎️<a href="https://t.me/fanhousuibi">联系我</a></p>
+<p>📷<a href="https://t.me/fhsblog">加入频道</a></p>
+<p>✉️<a href="fanhousuibi@outlook.com">邮箱</a></p>
+<hr>
+<h3 id="reference"><strong>Reference</strong></h3>
+<p>[Wikipedia][https://en.wikipedia.org/wiki/Markdown]</p>
+<p>[JOHN GRUBER][https://daringfireball.net/projects/markdown/syntax]</p>
+<p>[Markdown Reference for Typora][http://support.typora.io/Markdown-Reference/]</p>
+<p><a href="https://www.jianshu.com/p/a289a8c4c606">Typora介绍</a></p>
+<p><a href="https://sspai.com/post/36610">markdown完全入门(上)</a></p>
+<p><a href="https://sspai.com/post/36682">markdown完全入门(下)</a></p>
+<p><a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-%E9%AB%98%E9%98%B6%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C">高阶语法手册</a></p>
+<p><a href="https://www.webfx.com/tools/emoji-cheat-sheet/">EMOJI CHEAT SHEET</a></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>here is the <em>text</em> of the <strong>footnote</strong>. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>https://www.youtube.com/watch?v=EigxHkpqJdA <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://fanhousuibi.github.io/tag/H_laDDugv/" class="tag">
+                    标记语法
+                  </a>
+                
+                  <a href="https://fanhousuibi.github.io/tag/DeJ7zOSpqx/" class="tag">
+                    写作工具
+                  </a>
+                
+                  <a href="https://fanhousuibi.github.io/tag/JXgcLUU1Ju/" class="tag">
+                    教程
+                  </a>
+                
+                  <a href="https://fanhousuibi.github.io/tag/CwHDtlOGm/" class="tag">
+                    markdown
+                  </a>
+                
+                  <a href="https://fanhousuibi.github.io/tag/zL_q1n4Gf0/" class="tag">
+                    typora
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://fanhousuibi.github.io/post/markdown-for-typora/">
+                  <h3 class="post-title">
+                    Markdown For Typora
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
