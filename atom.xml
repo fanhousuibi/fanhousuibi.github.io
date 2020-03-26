@@ -2,13 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fanhousuibi.github.io</id>
     <title>饭后随笔</title>
-    <updated>2020-03-18T13:32:14.223Z</updated>
+    <updated>2020-03-26T14:57:04.158Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fanhousuibi.github.io"/>
     <link rel="self" href="https://fanhousuibi.github.io/atom.xml"/>
     <logo>https://fanhousuibi.github.io/images/avatar.png</logo>
     <icon>https://fanhousuibi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 饭后随笔</rights>
+    <entry>
+        <title type="html"><![CDATA[聚焦，再出发！]]></title>
+        <id>https://fanhousuibi.github.io/post/futurehere/</id>
+        <link href="https://fanhousuibi.github.io/post/futurehere/">
+        </link>
+        <updated>2020-03-26T14:54:16.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>龙哥再次征战，这次是直播带货，质疑、祝福、和嘲讽，什么都阻挡不了这个男人越挫越勇。</strong></p>
+<p>你很难想象让一个曾经在2008年就做出牛博网这种牛逼的国内先锋知识分子聚焦地的博客创始人，这个曾经挑战苹果，放话要做东半球最好手机的人，这个坦言自己有社交恐惧症，需要花费100个小时来练习几个小时演讲的人，4月1日，这个愚人的日子，也要学习抖音、快手上的主播们，“老铁双击666”了。</p>
+<p>有人会说这是理想主义的挫败和归宿，有人现实点出这是一个欠债的中年人为了从中年危机中走出来，做出的大胆尝试。有人直言，养熟的韭菜又可以割了。</p>
+<p>世事无常，多少理想主义败给了现实，拾起生活的重担，不再抬头仰望星空。</p>
+<p>这段日子很是苦闷，有些时候感觉人生好像就没有了奔头，但仔细盘算下来，其实我还是白纸一张，未来怎么走，全无意料。</p>
+<p>最近精力极度分数，唯一能沉下心来看点东西的时刻，竟是在上下班的地铁上。虽然也在不断进行各种谋划，但是进展都缓慢地赶不上变化。</p>
+<p>其实，人永远赶不上变化的，你有你的计划，世界自有安排。怎么让自己的不变赶上这种安排，是每个人都需要思考的问题。</p>
+<p>一个人如果不是身在局中，很难感同身受这种苦闷。这种苦闷很难自我消解，只能借助外界的力量。但是，在借助外界力量之前，它需要付出自己的努力或者说代价，这是认知的代价。</p>
+<p>二十多年构建的世界奔崩离析，从破损的瓦砾中重建，总免不了无尽的伤感和苦闷，情感依赖和肉身所处总是和思想不断交锋，撕裂当下的生活。</p>
+<p>逆潮流者，必须有相应的勇气和毅力，否则怎么配得上好的思想。如不如此，又怎能重构内心秩序，聚焦，再出发！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[流行病与政治]]></title>
         <id>https://fanhousuibi.github.io/post/politics&amp;pandemics/</id>
@@ -497,11 +515,11 @@ __double underscores__
 <p>Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，<strong>粗体</strong> 或者 <em>斜体</em> 某些文字，更棒的是，它还可以</p>
 <h3 id="1-制作一份待办事宜-todo-列表">1. 制作一份待办事宜 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-%E5%BE%85%E5%8A%9E%E4%BA%8B%E5%AE%9C-todo-%E5%88%97%E8%A1%A8">Todo 列表</a></h3>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2260927"><label class="task-list-item-label" for="task-item-2260927"> 支持以 PDF 格式导出文稿</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8639108"><label class="task-list-item-label" for="task-item-8639108"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6775276"><label class="task-list-item-label" for="task-item-6775276"> 新增 Todo 列表功能</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8907600"><label class="task-list-item-label" for="task-item-8907600"> 修复 LaTex 公式渲染问题</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6963465"><label class="task-list-item-label" for="task-item-6963465"> 新增 LaTex 公式编号功能</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1607696"><label class="task-list-item-label" for="task-item-1607696"> 支持以 PDF 格式导出文稿</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-803863"><label class="task-list-item-label" for="task-item-803863"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6703830"><label class="task-list-item-label" for="task-item-6703830"> 新增 Todo 列表功能</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3031275"><label class="task-list-item-label" for="task-item-3031275"> 修复 LaTex 公式渲染问题</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5156122"><label class="task-list-item-label" for="task-item-5156122"> 新增 LaTex 公式编号功能</label></li>
 </ul>
 <h3 id="2-书写一个质能守恒公式">2. 书写一个质能守恒公式<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h3>
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E=mc^2
@@ -807,46 +825,6 @@ https://kveln.cn/post/qE678A4ce/</p>
 <p>我的 Blog ：fanhousuibi.github.io</p>
 <p>使用 instant.page预加速Gridea博客：（注意是放到页面公共底部，footer.ejs中）<br>
 https://kveln.cn/post/BMDxD6cBT/</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于本站]]></title>
-        <id>https://fanhousuibi.github.io/post/about/</id>
-        <link href="https://fanhousuibi.github.io/post/about/">
-        </link>
-        <updated>2019-01-25T11:09:48.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="关于本站">关于本站💬</h1>
-<p>本站是偏技术型的博客，底层构建于GitHub，通过gridea搭建。<br>
-博主是一个技术小白，因此所思所想所写关于技术的文字，不故作高深，以一个非业内小白的视角来写作。<br>
-本站会更新：</p>
-<ul>
-<li>一些浅显而自己亲身试验过的网络技术</li>
-<li>日常所思所想</li>
-<li>学习笔记</li>
-<li>系列文集</li>
-</ul>
-<h1 id="博客名字从何而来">博客名字从何而来🍨</h1>
-<p>一日吃饭时，突发灵感，要是我每天晚上吃饭的时候，构思吃完饭后写点什么，向世人吐露自己的内心，换取内心的平静。</p>
-<p>实际上<em>饭后随笔</em>有两层意思：</p>
-<ul>
-<li>1.每天吃完饭，夜深人静，在书桌静静思考人生，并将这一思绪写下来；</li>
-<li>2.这一博客是为“饭后”所写，也即解决了生计，照顾好了家人，做好了分内的事情，才动笔写作。也就是说，这一博客不会成为生计来源（甚至不会成为之一），所以每天写博客，也是在做好安身立命之事后，做的一些消遣罢了。</li>
-</ul>
-<h1 id="开博客的目的是什么">开博客的目的是什么📝</h1>
-<p>虽然不是为了生计，但是目的还是有的。</p>
-<p>人总要说些什么，如果有人封住你的嘴，不让你说，那你越应该拼命要说，否则憋坏的就是自己，败坏的就是良心，沉沦的就是灵魂。写这个博客目的有三个：<strong>理清思路、抒情表意，结交价值观相似的朋友</strong>。</p>
-<p>至于为什么选择博客。<br>
-其实我本人并不在博客时代生活过，准确来说我是国内恶臭互联网生态的难民。这个博客，除了gridea是国内一个小哥开发的，其他使用的都是国外的技术（注册邮箱、域名服务商以及载体GitHub和One Driver）。</p>
-<p>当了难民，当然想逃往那些相对自由一些地方（不会被封号），听说过博客时代的很多大佬（牛博网、可能吧‘、槽边往事等）的事迹，博客就像大佬手中的剑，一起为整个中文互联网精神家园打拼蓝图。最近了解到GitHub可以免费搭建静态博客，而又有人打造了gridea那么好的软件，所以博客就成了我不二的选择。</p>
-<h1 id="怎么联系博主">怎么联系博主📬</h1>
-<p>这个博客的目的之三是结交价值观相似的朋友，总有些意气相投的朋友，散落在世界各地，我想通过互联网，通过文字，通过搜索，结识到他们。</p>
-<p>所以，我又创建了一个Telegram 电报频道和群，欢迎加入！<br>
-频道：https://t.me/fhsblog<br>
-群组：https://t.me/fanhousuibiclub</p>
-<p>如果需要联系我，可以利用以下联系方式，不保证及时回复。<br>
-Email: fanhousuibi@outlook.com</p>
-<p>Telegram: https://t.me/fanhousuibi</p>
-<p>Google Voice: (913) 703 4567</p>
 ]]></content>
     </entry>
 </feed>
