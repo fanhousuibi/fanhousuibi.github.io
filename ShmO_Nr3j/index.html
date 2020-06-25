@@ -1,320 +1,100 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-<title>关于我 - 饭后随笔</title>
-<meta name="description" content="沉着、勇猛、有辨别、不自私。">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>饭后随笔</title>
+<link rel="shortcut icon" href="https://fanhousuibi.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://fanhousuibi.github.io/media/css/tailwind.css">
+<link rel="stylesheet" href="https://fanhousuibi.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="饭后随笔 - Atom Feed" href="https://fanhousuibi.github.io/atom.xml">
 
-<link type='text/css' rel='stylesheet' href='https://fanhousuibi.github.io/styles/main.css' media='screen' />
-<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
-<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
-<script type="text/javascript" src='https://fanhousuibi.github.io/media/scripts/jquery.js'></script>
-<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
-
-<script>
-    hljs.initHighlightingOnLoad();
-</script>
+  <meta name="description" content="沉着、勇猛、有辨别、不自私。" />
 </head>
-
 <body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
 
-    <div class="layout theme-dark">
-
-        <div class="layout-header">
-
-	<div class="layout-header-main">
-		<div class="container">
-			<div class="row justify-content-lg-center">
-				<div class="col-12 col-lg-9">
-
-					<div class="navbar">
-
-						<div class="logo">
-							<a href="https://fanhousuibi.github.io">
-								<img class="logo"
-									src="https://fanhousuibi.github.io/media/images/site_avatar.png?v=1593083416320"
-									alt="">
-							</a>
-						</div>
-
-						<div class="menu d-md-inline-block d-none">
-							<ul class="layout-navigation-list">
-								
-								<li class="layout-navigation-item"><a title="首页"
-										href="/">首页</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="归档"
-										href="/archives">归档</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="标签"
-										href="/tags">标签</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="关于"
-										href="/post/about">关于</a>
-								</li>
-								
-							</ul>
-						</div>
-
-						<div class="item d-md-inline-block d-none">
-							<div class="search-icon">
-								<i class="fa fa-search" aria-hidden="true"></i>
-							</div>
-						</div>
-
-
-
-						<div class="d-md-inline-block d-none">
-							<div class="search-lightbox">
-								<div class="search-body">
-
-									<form id="gridea-search-form" data-update="1593083416320" action="/search/" class="search-form">
-										<input type="text" name="q" id="s" value="" class="search-field" placeholder="请输入搜索关键词" aria-label="请输入搜索关键词" required="">
-										<button type="submit" class="submit" aria-label="Submit">
-											<i class="fa fa-search" aria-hidden="true"></i>
-										</button>
-									</form>
-
-								</div>
-							</div>
-						</div>
-
-						<div class="nav d-md-none d-inline-block">
-							<div class="trigger">
-								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-
-
-
-
-		</div>
-	</div>
-
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://fanhousuibi.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
 </div>
 
-        <div class="layout-collapse d-md-none">
-	<div class="layout-collapse-main">
-		<ul class="layout-collapse-list">
-			
-			<li class="layout-collapse-item"><a title="首页" href="/">首页</a></li>
-			
-			<li class="layout-collapse-item"><a title="归档" href="/archives">归档</a></li>
-			
-			<li class="layout-collapse-item"><a title="标签" href="/tags">标签</a></li>
-			
-			<li class="layout-collapse-item"><a title="关于" href="/post/about">关于</a></li>
-			
-
-		</ul>
-	</div>
-</div>
-
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      <h1 class="text-2xl font-bold pb-8 flex justify-center items-center">
+        <i class="ri-hashtag"></i>
+        关于我
+      </h1>
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
         
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://fanhousuibi.github.io/about/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          关于本站
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-01-25</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        关于本站💬
+本站是偏技术型的博客，底层构建于GitHub，通过gridea搭建。
+博主是一个技术小白，因此所思所想所写关于技术的文字，不故作高深，以一个非业内小白的视角来写作。
+本站会更新：
 
-<div class="layout-nav" style="background-image: url('https://fanhousuibi.github.io/post-images/about.jpg')">
-  <div class="container">
-    <div class="row justify-content-lg-center">
-      <div class="col-12 col-lg-9">
-        <div class="nav-content">
-          <h1>关于我</h1>
-          <div class="sub-title"># 标签</div>
-        </div>
+一些浅显而自己亲身试验过的网络技术
+日常所思...
       </div>
+      <a href="https://fanhousuibi.github.io/about/" class="btn">
+        Read more
+      </a>
     </div>
-
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://fanhousuibi.github.io/post-images/about.jpg" alt="关于本站">
+    
   </div>
-</div>
-
-
-        <div class="layout-content">
-  <div class="layout-content-main">
-    <div class="container">
-      <div class="row justify-content-lg-center">
-        <div class="col-12 col-lg-9">
-          <div class="card-list">
-            
-            
-            <article class="card">
-              <div class="card-item row">
-                
-                <div class="card-content col-8 col-lg-9">
-                  <div class="card-body">
-                    <div class="header">
-                      <a class="title" href="https://fanhousuibi.github.io/about/">
-                        <h3>关于本站</h3>
-                      </a>
-                    </div>
-                    <div class="inner d-none d-sm-block">
-                      <div class="abstract">
-                        
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-footer">
-                    <div class="item">
-                      
-                      <a href="https://fanhousuibi.github.io/ShmO_Nr3j/" class="tag" data-title="关于我">
-                        关于我
-                      </a>
-                      
-                      <a href="https://fanhousuibi.github.io/IBB-9sBWWs/" class="tag" data-title="自我解刨">
-                        自我解刨
-                      </a>
-                      
-                      <a href="https://fanhousuibi.github.io/1_xmQY6rpn/" class="tag" data-title="本博事记">
-                        本博事记
-                      </a>
-                      
-                      <a href="https://fanhousuibi.github.io/KdGoSSksJ/" class="tag" data-title="博客搭建">
-                        博客搭建
-                      </a>
-                      
-                    </div>
-                    <div class="item">2019-01-25</div>
-                  </div>
-                </div>
-                <div class="card-thumb col-4 col-lg-3">
-                  <div class="thumb">
-                    <a href="https://fanhousuibi.github.io/about/" style="background-image: url('https://fanhousuibi.github.io/post-images/about.jpg')"></a>
-                  </div>
-                </div>
-                
-              </div>
-            </article>
-            
-            
-          </div>
-
-          
-
-        </div>
+  
       </div>
+
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</footer>
+
     </div>
   </div>
-</div>
-
-
-<script type="text/javascript">
-  //点击加载更多
-  jQuery(document).ready(function ($) {
-    //点击下一页的链接(即那个a标签)
-    $(' .btn-paginator').click(function () {
-      $this = $(this);
-      $this.addClass('loading').text('正在加载'); //给a标签加载一个loading的class属性，用来添加加载效果
-      var href = $this.attr('href'); //获取下一页的链接地址
-      if (href != undefined) { //如果地址存在
-        $.ajax({ //发起ajax请求
-          url: href,
-          //请求的地址就是下一页的链接
-          type: 'get',
-          //请求类型是get
-          error: function (request) {
-            //如果发生错误怎么处理
-          },
-          success: function (data) { //请求成功
-            $this.removeClass('loading').text('加载更多'); //移除loading属性
-            var $res = $(data).find('.card'); //从数据中挑出文章数据，请根据实际情况更改
-            $('.card-list').append($res.fadeIn(
-              500)); //将数据加载加进posts-loop的标签中。
-            var newhref = $(data).find('.btn-paginator').attr('href'); //找出新的下一页链接
-            if (newhref != undefined) {
-              $('.btn-paginator').attr('href', newhref);
-            } else {
-              $('.btn-paginator').remove(); //如果没有下一页了，隐藏
-            }
-          }
-        });
-      }
-      return false;
-    });
-  });
-</script>
-
-        	<div class="layout-footer">
-
-		<div class="container">
-			<div class="row justify-content-lg-center">
-				<div class="col-12 col-lg-9">
-					<div class="footer">
-						<div class="row">
-							<div class="col-12 col-md-9">
-								<div class="footer-copy">
-									
-									<span>© 本博开始于2019年 </span>
-									<a href="https://fanhousuibi.github.io" title="饭后随笔">饭后随笔</a>
-									<span class="px-2">⋅</span>
-									
-									Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-									<div class="footer-icp d-none d-sm-inline-block">
-										<span class="px-2">⋅</span>
-										
-										<a href="http://www.beian.miit.gov.cn" target="_blank">fanhousuibi.life </a>
-										
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3 d-none d-md-block">
-								<div class="footer-links">
-									
-									
-									<span class="footer-links-item">
-										<a href="https://twitter.com/fhsb2020" target="_blank">
-											<i class="fa fa-twitter" aria-hidden="true"></i>
-										</a>
-									</span>
-									
-									
-									
-									<span class="footer-links-item">
-										<a href="https://github.com/fanhousuibi" target="_blank">
-											<i class="fa fa-github" aria-hidden="true"></i>
-										</a>
-									</span>
-									
-									
-									
-									<span class="footer-links-item">
-										<a href="https://t.me/fanhousuibi" target="_blank">
-											<i class="fa fa-telegram" aria-hidden="true"></i>
-										</a>
-									</span>
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<script type="text/javascript" src='https://fanhousuibi.github.io/media/scripts/main.js'></script>
-	
-    </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://fanhousuibi.github.io/media/scripts/main.js"></script>
 </body>
-
 </html>
