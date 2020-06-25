@@ -1,116 +1,152 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title> 学点哲学 | 饭后随笔</title>
-<meta name="description" content="沉着、勇猛、有辨别、不自私。" />
-<link rel="shortcut icon" href="https://fanhousuibi.github.io/favicon.ico?v=1590505943084">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://fanhousuibi.github.io/styles/main.css">
+<!DOCTYPE html>
+<html lang="zh-CN">
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<head>
+  <meta charset="UTF-8" />
+<title> 学点哲学 - 饭后随笔</title>
+<meta name="description" content="沉着、勇猛、有辨别、不自私。">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<link type='text/css' rel='stylesheet' href='https://fanhousuibi.github.io/styles/main.css' media='screen' />
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158647147-2"></script>
+<script type="text/javascript" src='https://fanhousuibi.github.io/media/scripts/jquery.js'></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-158647147-2');
+    hljs.initHighlightingOnLoad();
 </script>
+</head>
+
+<body>
+  <div class="layout theme-dark">
+    <div class="layout-header">
+
+	<div class="layout-header-main">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+
+					<div class="navbar">
+
+						<div class="logo">
+							<a href="https://fanhousuibi.github.io">
+								<img class="logo"
+									src="https://fanhousuibi.github.io/media/images/site_avatar.png?v=1593083416320"
+									alt="">
+							</a>
+						</div>
+
+						<div class="menu d-md-inline-block d-none">
+							<ul class="layout-navigation-list">
+								
+								<li class="layout-navigation-item"><a title="首页"
+										href="/">首页</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="归档"
+										href="/archives">归档</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="标签"
+										href="/tags">标签</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="关于"
+										href="/post/about">关于</a>
+								</li>
+								
+							</ul>
+						</div>
+
+						<div class="item d-md-inline-block d-none">
+							<div class="search-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</div>
 
 
-  </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://fanhousuibi.github.io">
-  <img class="avatar" src="https://fanhousuibi.github.io/images/avatar.png?v=1590505943084" alt="">
-  </a>
-  <h1 class="site-title">
-    饭后随笔
-  </h1>
-  <p class="site-description">
-    沉着、勇猛、有辨别、不自私。
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-        <a href="https://twitter.com/fhsb2020" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-      
-    
-      
-        <a href="https://t.me/fhsblog" target="_blank">
-          <i class="fab fa-weibo"></i>
-        </a>
-      
-    
-      
-    
-      
-        <a href="https://www.facebook.com/suibi.fanhou.1" target="_blank">
-          <i class="fab fa-facebook"></i>
-        </a>
-      
-    
-  </div>
+
+						<div class="d-md-inline-block d-none">
+							<div class="search-lightbox">
+								<div class="search-body">
+
+									<form id="gridea-search-form" data-update="1593083416320" action="/search/" class="search-form">
+										<input type="text" name="q" id="s" value="" class="search-field" placeholder="请输入搜索关键词" aria-label="请输入搜索关键词" required="">
+										<button type="submit" class="submit" aria-label="Submit">
+											<i class="fa fa-search" aria-hidden="true"></i>
+										</button>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="nav d-md-none d-inline-block">
+							<div class="trigger">
+								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+</div>
+    <div class="layout-collapse d-md-none">
+	<div class="layout-collapse-main">
+		<ul class="layout-collapse-list">
+			
+			<li class="layout-collapse-item"><a title="首页" href="/">首页</a></li>
+			
+			<li class="layout-collapse-item"><a title="归档" href="/archives">归档</a></li>
+			
+			<li class="layout-collapse-item"><a title="标签" href="/tags">标签</a></li>
+			
+			<li class="layout-collapse-item"><a title="关于" href="/post/about">关于</a></li>
+			
+
+		</ul>
+	</div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-               学点哲学
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-05-08
-              </span>
-              <span>
-                3 min read
-              </span>
-              
-            </div>
-            
-              <img class="post-feature-image" src="https://fanhousuibi.github.io/post-images/xue-dian-zhe-xue.png" alt="">
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>现代人容易陷入虚无的混沌中，特别在中国，我们丢弃了传统的伦理道德，却从未有效建立起一个可以代替它的信仰体系。遥远的西方工业文明社会，所依赖的道德体系秩序，基督教,几千年来屹立不倒。可我们这个唯一持续不断的古老文明，在近代不断地颠覆和革命中，早已名存实亡。我们建了一个空中楼阁，看上起很好看，却缺少和大地接触的中间层。</p>
+    <div class="layout-content">
+      <div class="layout-content-main">
+        <div class="container">
+          <div class="row justify-content-lg-center">
+            <div class="col-12 col-lg-9">
+              <div class="layout-post">
+                <div class="layout-post-body">
+                  <div class="row">
+
+                    <div class="col-12 col-lg-10">
+                      <div class="layout-post-main m-right m-md-right">
+                        <div class="layout-post-header">
+                          <h1 class="layout-post-title"> 学点哲学</h1>
+                          <div class="layout-post-meta">
+                            <div class="item">
+                              
+                            </div>
+                            <div class="item">
+                              <span>2020-05-08</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="layout-post-content">
+                          <div class="layout-post-item">
+                            
+                            <p class="with-img"><img src="https://fanhousuibi.github.io/post-images/xue-dian-zhe-xue.png"
+                                class="attachment-full size-full wp-post-image" alt=" 学点哲学" /></p>
+                            
+                            <p>现代人容易陷入虚无的混沌中，特别在中国，我们丢弃了传统的伦理道德，却从未有效建立起一个可以代替它的信仰体系。遥远的西方工业文明社会，所依赖的道德体系秩序，基督教,几千年来屹立不倒。可我们这个唯一持续不断的古老文明，在近代不断地颠覆和革命中，早已名存实亡。我们建了一个空中楼阁，看上起很好看，却缺少和大地接触的中间层。</p>
 <p>生活在这样的时代背景下，我们的精神生活一片荒芜，个人最容易陷入迷茫和虚无的窠臼。这很多时候和一个人的境遇无关，而是更多取决于一个人的内在秩序。一个人是否有足够融洽的内心秩序，往往决定了他的生活是否充盈、有意义，不虚无。</p>
 <p>要实现这种内在秩序，得有整套解释世界、社会和生活的理论体系支撑，而哲学和宗教，是这个理论体系所必须的唯二选择。</p>
 <p>生活在现代社会，你要么皈依宗教，要么找到属于自己的人生哲学，否则人生的虚无感会漫灌到你的全世界。</p>
@@ -137,77 +173,183 @@
 <p>真有价值的东西，决不为怀疑所毁；而能被怀疑所毁的东西，决不会真有价值。<br>
 ——胡适</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
+                          </div>
+                        </div>
+                        <div class="layout-post-social">
+                          <div class="item reader">
+                            <div id="/post/xue-dian-zhe-xue/" class="leancloud-visitors view"
+                              data-flag-title=" 学点哲学">
+                              <span class="post-meta-item-text">阅读 </span>
+                              <span class="leancloud-visitors-count"></span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="layout-post-navigation">
+                          <div class="navigation-list">
+                            
+                            <div class="post-card row">
+                              
+                              <div class="card-content col-8 col-md-9">
+                                <div class="card-body">
+                                  <div class="header">
+                                    <a href="https://fanhousuibi.github.io/wo-men-wei-shi-me-yao-guan-xin-zheng-zhi/" class="title">
+                                      <h4>我们为什么要关心政治？</h4>
+                                    </a>
+                                  </div>
+                                  <div class="inner d-none d-sm-block">
+                                    <div class="abstract">
+                                      
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card-footer">
+                                  <div class="item"><span>上一篇</span></div>
+                                  <div class="item">2020-05-09</div>
+                                </div>
+                              </div>
+                              <div class="card-thumb col-4 col-md-3">
+                                <div class="thumb">
+                                  <a href="https://fanhousuibi.github.io/wo-men-wei-shi-me-yao-guan-xin-zheng-zhi/"
+                                    style="background-image: url('https://fanhousuibi.github.io/post-images/wo-men-wei-shi-me-yao-guan-xin-zheng-zhi.png');"></a>
+                                </div>
+                              </div>
+                              
+                            </div>
+
+                            <div class="post-card row">
+                              
+                              <div class="card-content col-8 col-md-9">
+                                <div class="card-body">
+                                  <div class="header">
+                                    <a href="https://fanhousuibi.github.io/lifepossibility/" class="title">
+                                      <h4>如何看到这个世界的更多面？</h4>
+                                    </a>
+                                  </div>
+                                  <div class="inner d-none d-sm-block">
+                                    <div class="abstract">
+                                      
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card-footer">
+                                  <div class="item"><span>下一篇</span></div>
+                                  <div class="item">2020-04-18</div>
+                                </div>
+                              </div>
+                              <div class="card-thumb col-4 col-md-3">
+                                <div class="thumb">
+                                  <a href="https://fanhousuibi.github.io/lifepossibility/"
+                                    style="background-image: url('https://fanhousuibi.github.io/post-images/lifepossibility.jpg');"></a>
+                                </div>
+                              </div>
+                              
+                            </div>
+
+                            
+                          </div>
+                        </div>
+
+                        <div class="layout-comments"></div>
+                        
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-lg-2 d-none d-lg-block">
+                      <div class="layout-post-sidebar">
+                        <div class="layout-sidebar-item">
+                          <ul class="markdownIt-TOC">
 <li><a href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E8%BF%99%E4%B8%AA%E6%97%B6%E5%80%99%E5%AD%A6%E5%93%B2%E5%AD%A6">为什么要这个时候学哲学</a></li>
 </ul>
 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </article>
-        </div>
-
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://fanhousuibi.github.io/lifepossibility/">
-              <h3 class="post-title">
-                如何看到这个世界的更多面？
-              </h3>
-            </a>
           </div>
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="https://fanhousuibi.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-
-  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
-
-  // This should probably be throttled.
-  // Especially because it triggers during smooth scrolling.
-  // https://lodash.com/docs/4.17.10#throttle
-  // You could do like...
-  // window.addEventListener("scroll", () => {
-  //    _.throttle(doThatStuff, 100);
-  // });
-  // Only not doing it here to keep this Pen dependency-free.
-
-  window.addEventListener("scroll", event => {
-    let fromTop = window.scrollY;
-
-    mainNavLinks.forEach((link, index) => {
-      let section = document.getElementById(decodeURI(link.hash).substring(1));
-      let nextSection = null
-      if (mainNavLinks[index + 1]) {
-        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-      }
-      if (section.offsetTop <= fromTop) {
-        if (nextSection) {
-          if (nextSection.offsetTop > fromTop) {
-            link.classList.add("current");
-          } else {
-            link.classList.remove("current");    
-          }
-        } else {
-          link.classList.add("current");
-        }
-      } else {
-        link.classList.remove("current");
-      }
-    });
-  });
-
-</script>
-
+        </div>
       </div>
     </div>
-  </body>
+
+    <div class="layout-totop d-none"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+
+    	<div class="layout-footer">
+
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+					<div class="footer">
+						<div class="row">
+							<div class="col-12 col-md-9">
+								<div class="footer-copy">
+									
+									<span>© 本博开始于2019年 </span>
+									<a href="https://fanhousuibi.github.io" title="饭后随笔">饭后随笔</a>
+									<span class="px-2">⋅</span>
+									
+									Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+									<div class="footer-icp d-none d-sm-inline-block">
+										<span class="px-2">⋅</span>
+										
+										<a href="http://www.beian.miit.gov.cn" target="_blank">fanhousuibi.life </a>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 d-none d-md-block">
+								<div class="footer-links">
+									
+									
+									<span class="footer-links-item">
+										<a href="https://twitter.com/fhsb2020" target="_blank">
+											<i class="fa fa-twitter" aria-hidden="true"></i>
+										</a>
+									</span>
+									
+									
+									
+									<span class="footer-links-item">
+										<a href="https://github.com/fanhousuibi" target="_blank">
+											<i class="fa fa-github" aria-hidden="true"></i>
+										</a>
+									</span>
+									
+									
+									
+									<span class="footer-links-item">
+										<a href="https://t.me/fanhousuibi" target="_blank">
+											<i class="fa fa-telegram" aria-hidden="true"></i>
+										</a>
+									</span>
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src='https://fanhousuibi.github.io/media/scripts/main.js'></script>
+	
+
+  </div>
+</body>
+
 </html>
