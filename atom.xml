@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fanhousuibi.github.io</id>
     <title>饭后随笔</title>
-    <updated>2020-06-25T11:51:42.911Z</updated>
+    <updated>2020-08-02T13:54:56.505Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fanhousuibi.github.io"/>
     <link rel="self" href="https://fanhousuibi.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://fanhousuibi.github.io/images/avatar.png</logo>
     <icon>https://fanhousuibi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 饭后随笔</rights>
+    <entry>
+        <title type="html"><![CDATA[《星际穿越》观后]]></title>
+        <id>https://fanhousuibi.github.io/xingjichuanyue/</id>
+        <link href="https://fanhousuibi.github.io/xingjichuanyue/">
+        </link>
+        <updated>2020-08-02T13:52:14.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[好产品需要由使用者和产品团队的共同默契]]></title>
         <id>https://fanhousuibi.github.io/goodproducts/</id>
@@ -72,12 +79,5 @@
         <link href="https://fanhousuibi.github.io/portraitofaladyonfire/">
         </link>
         <updated>2020-03-12T16:34:49.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[这个世界会好吗？]]></title>
-        <id>https://fanhousuibi.github.io/DigitalTotalitarianism/</id>
-        <link href="https://fanhousuibi.github.io/DigitalTotalitarianism/">
-        </link>
-        <updated>2020-03-11T15:20:02.000Z</updated>
     </entry>
 </feed>
